@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+
+.r1a{
+    background-color: rgb(206, 165, 145);
+}
+
+h2{ /* Small Titles */
+    font-family: "Sofia", sans-serif;
+    color: black;
+}
+
+h5{ /* Slogan */
+    text-align: center;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 2vw;
+    color: black;
+    margin-top: -1vw;
+    padding-top: 0;
+    font-weight: normal;
+}
+
+.xs6a h2{
+    color: black;
+    text-align: center;
+    border: 0.2vw solid black; 
+ 
+    font-size: 4vw;
+    padding: 5%; 
+    padding-top: 2%;
+    margin: 10%; 
+    width: 38vw;
+}
+ 
+.xs6a h5{
+    padding-bottom: 4vw; 
+    text-align: justify; 
+    font-size: 1.3vw; 
+    width: 25vw; 
+    margin:auto; 
+    color: black;
+}
+
+.appbut{
+    display: block;
+    background-color: rgb(243, 238, 235);
+    padding: 1vw;
+    margin:auto;
+    margin-bottom: 3vw;
+
+    font-family: "Tenor Sans", sans-serif;
+    color: black;
+    font-size: 1.4vw;
+    text-decoration: none;
+    text-align: center;
+    width: 15vw;
+}
+
+.appbut:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    color: black;
+}
+
+.im2a{
+    width: 95%;
+    padding-bottom: 5%;
+    padding-left: 0;
+}
+
+.im4a{
+    width: 95%;
+    padding-top: 5%;
+    padding-left: 0;
+}
+
+.im7a{
+    width: 95%;
+    padding-bottom: 5%;
+    float: right;
+}
+
+.im8a{
+    width: 95%;
+    padding-top: 5%;
+    float: right;
+}
+
+.im1a{
+    width: 95%;
+    padding-bottom: 5%;
+    float: right;
+}
+
+.im6a{
+    width: 95%;
+    padding-top: 5%;
+    float: right;
+}

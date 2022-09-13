@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+
+.hs{
+    font-family: "Sofia", sans-serif;
+    color: black;
+    font-size: 4vw; 
+    text-align: center; 
+    margin: 5vw;
+}
+
+.ps{
+    font-family: "Tenor Sans", sans-serif;
+    /*text-align: justify;*/
+    color: black;
+    text-align: center; 
+    font-size: 1vw;
+}
+
+.r1{
+    background-color: rgb(222, 210, 194);
+    width: 90vw;
+}
+
+.xs4{
+    padding: 0;
+    margin: 0;
+}
+
+.imgflower{
+    width: 100%;
+}
+
+div a{
+    display: block;
+    background-color: rgb(206, 165, 145); 
+    margin-top: 5px;
+    padding: 1vw;
+    margin:auto;
+    margin-bottom: 3vw;
+
+    font-family: "Tenor Sans", sans-serif;
+    color: black;
+    font-size: 1.4vw;
+    text-decoration: none;
+    text-align: center;
+    width: 15vw;
+}
+
+div a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    color: black;
+}
+
+.imgs{
+    width: 100%;
+}
+

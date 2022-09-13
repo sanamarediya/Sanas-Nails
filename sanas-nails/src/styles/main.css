@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@900&display=swap');
+
+
+.back{
+    background-color: rgb(243, 238, 235);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.h1a {
+    font-family: "Sofia", sans-serif;
+    margin-top: 6.5vw;
+    margin-bottom: 3vw;;
+    margin-left: 15vw;
+    font-size: 50px;
+    color: black;
+}
+
+.h2s{ 
+    font-family: "Sofia", sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.h3s{ 
+    font-family: "Arima Madurai", cursive;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ps{
+    font-family: "Tenor Sans", sans-serif;
+    text-align: justify;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.spce{
+    font-family: "Arima Madurai", sans-serif;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.info_image{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    height: 315px;
+    width: 630px;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    background-color: rgba(244, 239, 236, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.words{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.pic{
+    padding: 17px;
+    width: 100%;
+}
+
+.servs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-bottom: 30px;
+    width: 630px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.card{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row1 {
+    margin-top: 50px;
+    background-color: rgb(222, 210, 194);
+    margin-bottom: 50px;
+}
+  
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .column {
+        width: 33.3%;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgb(206, 165, 145);
+    width: 300px;
+    opacity: 0;
+
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    z-index: 3;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
